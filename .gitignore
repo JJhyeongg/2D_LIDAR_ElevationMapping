@@ -3,8 +3,8 @@ build/
 install/
 log/
 
-# ROS bag 데이터 (용량이 크므로 제외)
-rosbag/
+# ROS bag 데이터는 Git LFS로 관리
+# rosbag/
 
 # 디버그 CSV 출력
 *.csv
