@@ -103,16 +103,13 @@ rviz_config/
 - TF 트리 시각화 포함
 
 ### rosbag 데이터
-
 ```
 rosbag/
 └── 5/   # 실외 환경 주행 실험 데이터
     ├── 5_0.db3
     └── metadata.yaml
 ```
-
-> rosbag 파일은 용량이 크므로 `.gitignore`에 포함되어 있습니다.
-> 별도로 제공되는 데이터를 `rosbag/` 폴더에 넣은 뒤 실행하세요.
+![demo](assets/demo_elevation_mapping.gif)
 
 **포함 토픽:**
 
